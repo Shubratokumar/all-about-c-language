@@ -1,0 +1,171 @@
+/*
+<======================================  Basic Concepts  ==============================================>
+
+# #include <stdio.h> (Header) it's called preprocessor directive.
+
+# Data Types: In C there are no data types like: boolean, string;
+
+# Variables:
+Variables is the name of a memory location which stores some data.
+
+* Rules:
+
+- Variables are case sensitive; 
+- 1st character is alphabet or '_';
+- no comma/blank space;
+- No other symbol other than '-';
+- Variables name must be meaningful one;
+- Naming: int, char, float, long, etc.
+
+# Constant: Values that don't change(fixed);
+
+- In general constant is written in capital letter;
+  const float PI = 3.1416;
+
+* Types:
+- Integer Constants: 1,2,3,4,5,0,-3,-2 etc.
+- Real Constants: 1.0, 3.0, 3.14, -9.4 etc.
+- Character Constants: 'A','d', '#','$','*' etc. (Character constant must be written with single quote.)
+
+# Keywords: Reserved words that have special meaning to the compiler.(32 Keywords in C);
+
+- Every Keywords must be written in small letter. 
+
+* auto,     break,   case,     char, 
+  continue, do,      default,  const, 
+  double,   else,    enum,     extern, 
+  for,      if,      goto,     float, 
+  int,      long,    register, return, 
+  signed,   static,  sizeof,   short, 
+  struct,   switch,  typeof,   union, 
+  void,     while,   volatile, unsigned.
+
+# Output: printf("Hello, Shubrato\n"); \n for new line;
+
+* Cases: 
+- integers: printf("age is %d[decimal]", age);
+- real numbers: printf("value is %f", value);
+- characters: printf("hash is look something like this %c", hash);
+
+# Input: scanf("%d", &age);
+
+- scanf("[data_type(format specify e.g. %d for integers)]", &[address][variable name]);
+
+# Data Types and Memory:
+
+- bool(Boolean)     1 byte
+- char(Character)   1 byte
+- double(Double)    8 byte
+- float(Float)      4 byte
+- int(Integer)      4 byte
+- long(Long)        8 byte
+- string(String)    ? byte
+
+# Compilation: A computer program that translate C code into machine code
+
+- hello.c(computer program) -> C Compiler(translator) -> hello.exe(machine code[executable]);
+
+# সি এর কম্পাইলার ও সি তে লিখা।
+
+  \b ব্লাঙ্ক স্পেস (blank)
+  \t হরাইজন্টাল ট্যাব (horizontal tab)
+  \v ভারটিক্যাল ট্যাব (vertical tab)
+  \r ক্যারিজ রিটার্ন (carriage return)
+  \f ফরম ফিড (form feed)
+  \n নিউ লাইন (new line)
+
+* In C there is no true or false. Only 1 or 0, if true then will return 1 and false then will return 0;
+
+
+
+<====================================  Instructions & Operators  ======================================>
+
+
+# Instructions: These are statements in a Program
+
+* Type Declaration Instructions: 
+
+- Declare variable before using it. 
+
+* Arithmetic Instructions: 
+
+- e.g. a + b; here a&b are operand and + is operator;
+- Note: single variable on the LHS;
+- Note: pow(x,y) for x to the power y;
+- Modular Operator: % e.g. returns remainder for int;
+- Type conversion:
+  * int op(operation) int ----> int; 2 bytes
+  * int op(operation) float ----> float; 4 bytes
+  * float op(operation) float ----> float; 4 bytes
+- Operator Precedence(Priority): (*,/,%) == > (+,-) == > =(Assignment operator);
+- Associativity(for same precedence): Left to Right [x = 4*3/5*8 e.g.(((4*3)/5)*2)];
+
+* Control Instructions: Used to determine flow of program. 
+- Sequence Control;
+- Decision Control(if-else);
+- Loop Control(for,while);
+- Case Control(case);
+
+
+
+# Operators: 
+
+- Arithmetic Operators: +,-,*,/,% etc. 
+- Relational Operators: ==(equal to), <, >, <=,>=, !=(not equal to)
+- Logical Operators: &&(and), ||(or), !(not)
+- Bitwise Operators: 
+- Assignment Operators(short hand): =, +=, -=, *=, /=, %=; 
+- Ternary Operators: Conditional ( true ? "something " : false )
+- Precedence(Priority):
+
+  Priority        Operator
+  1               !
+  2               *,/,%
+  3               +,-
+  4               <,<=,>,>=
+  5               ==, !=
+  6               &&
+  7               ||
+  8               =
+
+
+
+<====================================   Conditional Statements   ======================================>
+
+# Types: if-else and Switch;
+
+* if-else Statement: 
+
+- if(Condition) { [Compulsory]
+    do something if True
+  } 
+  else { [Optional]
+    do something if False
+  }
+
+* Ternary Operators:
+
+- Condition ? doSomething if True : doSomething if False;
+
+* Switch: 
+
+- swich(number){
+  case C1: do something
+        break;
+  case C2: do something
+        break;
+  default: do something
+  }
+
+- In switch case writing break is a must.
+- switch properties: 
+  a. Cases can be in any order;
+  b. Nested switch(switch inside switch) are allowed;
+
+
+
+
+
+
+
+*/
