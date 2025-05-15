@@ -118,15 +118,15 @@ Variables is the name of a memory location which stores some data.
 - Ternary Operators: Conditional ( true ? "something " : false )
 - Precedence(Priority):
 
-  Priority        Operator
-  1               !
-  2               *,/,%
-  3               +,-
-  4               <,<=,>,>=
-  5               ==, !=
-  6               &&
-  7               ||
-  8               =
+  * Priority        Operator
+  * 1               !
+  * 2               *,/,%
+  * 3               +,-
+  * 4               <,<=,>,>=
+  * 5               ==, !=
+  * 6               &&
+  * 7               ||
+  * 8               =
 
 
 
@@ -174,3 +174,11 @@ Variables is the name of a memory location which stores some data.
   for(initialization; condition; updation){
     // do something
   }
+
+* Increment Operator:
+- i++(pre increment operator): first use, then increase;
+- ++i(post increment operator): first increase, then use;
+
+* Decrement Operator:
+- i--(pre decrement operator): first use, then decrease;
+- --i(post decrement operator): first decrease, then use;

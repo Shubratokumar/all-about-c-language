@@ -24,13 +24,13 @@ int main(void){
         ch++;
     }
     // do while loop
-    float num = 1;
+    float num = 9;
     do
     {
         printf("%f \n", num);
-        num++;
+        num--;
         
-    } while (num <=9);
+    } while (num >= 1);
     
     
     return 0;    

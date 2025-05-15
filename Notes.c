@@ -176,11 +176,11 @@ Variables is the name of a memory location which stores some data.
     // do something
   }
 
-# Increment Operator:
+* Increment Operator:
 - i++(pre increment operator): first use, then increase;
-- ++i(post increment operator): first increate, then use;
+- ++i(post increment operator): first increase, then use;
 
-# Decrement Operator:
+* Decrement Operator:
 - i--(pre decrement operator): first use, then decrease;
 - --i(post decrement operator): first decrease, then use;
 
