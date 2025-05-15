@@ -163,6 +163,27 @@ Variables is the name of a memory location which stores some data.
   b. Nested switch(switch inside switch) are allowed;
 
 
+<====================================  Loop Control Instruction  ======================================>
+
+* To repeat some parts of the program
+* Types: for, while, do while
+* Loop counter can be float or even character;
+
+# For loops:
+
+* Structure:
+  for(initialisation; condition; updation){
+    // do something
+  }
+
+# Increment Operator:
+- i++(pre increment operator): first use, then increase;
+- ++i(post increment operator): first increate, then use;
+
+# Decrement Operator:
+- i--(pre decrement operator): first use, then decrease;
+- --i(post decrement operator): first decrease, then use;
+
 
 
 
