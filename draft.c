@@ -1,7 +1,14 @@
 #include <stdio.h>
 
 int main(void){
+    int sum = 0;
+    for (int i = 5; i <= 50; i++)
+    {
+        sum +=i;        
+        // printf("i is %d \n", i);
+    }
     
+    printf("Sum is: %d", sum);
     // Average of given three numbers
     // float a, b, c;    
     // printf("Enter numbers : \n");
