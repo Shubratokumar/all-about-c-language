@@ -185,7 +185,9 @@ Variables is the name of a memory location which stores some data.
 - --i(post decrement operator): first decrease, then use;
 
 * break statement: exit the loop
+* continue statement: skip to next iteration
 
+* When we initialize factorial we should take 1. While sum with 0.
 
 
 
