@@ -184,7 +184,7 @@ Variables is the name of a memory location which stores some data.
 - i--(pre decrement operator): first use, then decrease;
 - --i(post decrement operator): first decrease, then use;
 
-
+* break statement: exit the loop
 
 
 
