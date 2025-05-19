@@ -213,6 +213,26 @@ Variables is the name of a memory location which stores some data.
   return 0;
 };
 
+* Properties:
+
+- Execution always starts from main();
+- A function gets called directly or indirectly from main();
+- There can be multiple functions in a program;
+
+* Types: two types e.g. library function & user defined function
+
+- Library function: Special functions inbuilt in C e.g. scanf(), printf() etc. 
+- User defined: declared & defined by the programmer. 
+
+* Passing Arguments: 
+
+- Functions can take value(parameter) & give some value(return value);
+
+* Note:
+- Function can only return one value at a time;
+- Changes to parameters in function don't change the values in calling function.(Because a copy of argument is passed to the function);
+
+
 
 
 Last duration: 03 hrs 54 min 
