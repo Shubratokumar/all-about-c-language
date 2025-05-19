@@ -190,5 +190,31 @@ Variables is the name of a memory location which stores some data.
 * When we initialize factorial we should take 1. While sum with 0.
 
 
+<====================================  Function & Recursion   =========================================>
+
+# Functions: block of code that performs particular task
+
+* Functions always return a single result.
+* Take argument --> Do work --> Return result
+- It can be used multiple times;
+- It increase code reusability;
+
+* Syntax 1: Function Protype/Declaration(tell the compiler)
+- void printHello();
+
+* Syntax 2: Function Definition(Do the work)
+- void printHello(){
+  printf("Hello, Shubrato!");
+};
+
+* Syntax 3: Function call(Use the work)
+- int main(){
+  printHello();
+  return 0;
+};
+
+
+
+Last duration: 03 hrs 54 min 
 
 */
