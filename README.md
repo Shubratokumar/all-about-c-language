@@ -167,11 +167,12 @@ Variables is the name of a memory location which stores some data.
 
 * To repeat some parts of the program
 * Types: for, while, do while
+* Loop counter can be float or even character;
 
 # For loops:
 
 * Structure:
-  for(initialization; condition; updation){
+  for(initialisation; condition; updation){
     // do something
   }
 
@@ -182,3 +183,52 @@ Variables is the name of a memory location which stores some data.
 * Decrement Operator:
 - i--(pre decrement operator): first use, then decrease;
 - --i(post decrement operator): first decrease, then use;
+
+* break statement: exit the loop
+* continue statement: skip to next iteration
+
+* When we initialize factorial we should take 1. While sum with 0.
+
+
+<====================================  Function & Recursion   =========================================>
+
+# Functions: block of code that performs particular task
+
+* Functions always return a single result.
+* Take argument --> Do work --> Return result
+- It can be used multiple times;
+- It increase code reusability;
+
+* Syntax 1: Function Protype/Declaration(tell the compiler)
+- void printHello();
+
+* Syntax 2: Function Definition(Do the work)
+- void printHello(){
+  printf("Hello, Shubrato!");
+};
+
+* Syntax 3: Function call(Use the work)
+- int main(){
+  printHello();
+  return 0;
+};
+
+* Properties:
+
+- Execution always starts from main();
+- A function gets called directly or indirectly from main();
+- There can be multiple functions in a program;
+
+* Types: two types e.g. library function & user defined function
+
+- Library function: Special functions inbuilt in C e.g. scanf(), printf() etc. 
+- User defined: declared & defined by the programmer. 
+
+* Passing Arguments: 
+
+- Functions can take value(parameter) & give some value(return value);
+
+* Note:
+- Function can only return one value at a time;
+- Changes to parameters in function don't change the values in calling function.(Because a copy of argument is passed to the function);
+

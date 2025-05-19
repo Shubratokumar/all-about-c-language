@@ -4,7 +4,7 @@
 int main (){
     int a;
     printf("Enter number: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     int square = pow(a, 2);
     printf("Square of the given number is : %d", square);
     return 0;
