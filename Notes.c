@@ -233,6 +233,10 @@ Variables is the name of a memory location which stores some data.
 - Changes to parameters in function don't change the values in calling function.(Because a copy of argument is passed to the function);
 
 
+# Recursion: when a function calls itself, it's called recursion.
+
+- In programming, those things can be done with loops also can be done with recursion. 
+- 
 
 
 Last duration: 04 hrs 37 min 
