@@ -19,7 +19,7 @@ int sum(int n){
     // sum of 1 to n
     int sumofNminus1 = sum(n-1);
     // printf("Sum of n minus 1: %d \n", sumofNminus1);
-    int sumofN = sumofNminus1 + n;
+    int sumofN = sumofNminus1 + n;// original logic
     // printf("Sum of n : %d \n", sumofN);
     return sumofN;
 }
