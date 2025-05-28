@@ -235,10 +235,17 @@ Variables is the name of a memory location which stores some data.
 
 # Recursion: when a function calls itself, it's called recursion.
 
-- In programming, those things can be done with loops also can be done with recursion. 
-- 
+- In programming, those things can be done with loops also can be done with recursion too. 
+
+* Properties:
+
+- Anything that can be done with Iteration, can be done with recursion and vice-versa.
+- Recursion can sometimes give the most simple solution. 
+- Base case is the condition which stops recursion. 
+- Iteration has infinite loop & Recursion has stack overflow. 
 
 
-Last duration: 04 hrs 37 min 
+Last duration: 05 hrs 08 min 
+Date: 28 May 25
 
 */
