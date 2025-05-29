@@ -253,7 +253,18 @@ Variables is the name of a memory location which stores some data.
 * Syntax: 
 - int age = 28; int *ptr = &age; int _age = *ptr;
 - Here, * means value at address operator;
-- Here, & means address of operator
+- Here, & means address of operator;
+
+* Declaring Pointers: 
+- int *ptr;
+- char *ptr;
+- float *ptr;
+
+* Format Specifier: 
+- printf("%p", &age);
+- Here, %p is called pointer address;
+- %p prints hexadecimal numbers;
+- %u prints unsigned int;
 
 
 
