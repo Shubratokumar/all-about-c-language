@@ -245,7 +245,21 @@ Variables is the name of a memory location which stores some data.
 - Iteration has infinite loop & Recursion has stack overflow. 
 
 
-Last duration: 05 hrs 08 min 
+
+<==========================================  Pointers  ================================================>
+
+# Pointers: A variable that stores the memory address of another variable. 
+
+* Syntax: 
+- int age = 28; int *ptr = &age; int _age = *ptr;
+- Here, * means value at address operator;
+- Here, & means address of operator
+
+
+
+
+
+Last duration: 05 hrs 21 min 
 Date: 28 May 25
 
 */
