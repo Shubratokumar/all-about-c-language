@@ -252,8 +252,8 @@ Variables is the name of a memory location which stores some data.
 
 * Syntax: 
 - int age = 28; int *ptr = &age; int _age = *ptr;
-- Here, * means value at address operator;
-- Here, & means address of operator;
+- Here, * = value at address operator;
+- Here, & = address of operator;
 
 * Declaring Pointers: 
 - int *ptr;
@@ -270,7 +270,7 @@ Variables is the name of a memory location which stores some data.
 
 
 
-Last duration: 05 hrs 21 min 
-Date: 28 May 25
+Last duration: 05 hrs 40 min 
+Date: 30 May 25
 
 */

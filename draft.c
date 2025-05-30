@@ -1,14 +1,35 @@
 #include <stdio.h>
 
 int main(void){
-    int sum = 0;
-    for (int i = 5; i <= 50; i++)
-    {
-        sum +=i;        
-        // printf("i is %d \n", i);
-    }
+    // pointer example
+    int x;
+    int *ptr;
+    ptr = &x; // store address
+    *ptr = 0; // assign value
+    printf("x = %d \n", x);
+    printf("*ptr = %u \n", *ptr);
+    printf("pointer address of x = %u \n", &x);
+    printf("pointer address of ptr = %u \n", ptr);
+    printf("pointer address of &ptr = %u \n", &ptr);
     
-    printf("Sum is: %d", sum);
+    *ptr += 5;
+    printf("x = %d \n", x);
+    printf("*ptr = %u \n", *ptr);
+    
+    (*ptr)++;
+    printf("x = %d \n", x);
+    printf("*ptr = %u \n", *ptr);
+
+
+    // sum of given number with loop
+    // int sum = 0;
+    // for (int i = 5; i <= 50; i++)
+    // {
+    //     sum +=i;        
+    //     // printf("i is %d \n", i);
+    // }    
+    // printf("Sum is: %d", sum);
+
     // Average of given three numbers
     // float a, b, c;    
     // printf("Enter numbers : \n");
