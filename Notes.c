@@ -266,11 +266,15 @@ Variables is the name of a memory location which stores some data.
 - %p prints hexadecimal numbers;
 - %u prints unsigned int;
 
+# Pointer to Pointer: A variable that stores the memory address of another pointer.
+
+* Syntax: int **pptr; char ** pptr; float **pptr;
+
 
 
 
 
 Last duration: 05 hrs 40 min 
-Date: 30 May 25
+Date: 04 Jun 25
 
 */
