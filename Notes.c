@@ -270,6 +270,11 @@ Variables is the name of a memory location which stores some data.
 
 * Syntax: int **pptr; char ** pptr; float **pptr;
 
+# Pointers in Function call:
+
+- Call by value : we pass value of variable as argument; [square(int n)]
+- Call by Reference : We pass address of variable as argument; [square(int *n)]
+
 
 
 
