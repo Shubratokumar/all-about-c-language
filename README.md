@@ -232,3 +232,44 @@ Variables is the name of a memory location which stores some data.
 - Function can only return one value at a time;
 - Changes to parameters in function don't change the values in calling function.(Because a copy of argument is passed to the function);
 
+# Recursion: when a function calls itself, it's called recursion.
+
+- In programming, those things can be done with loops also can be done with recursion too. 
+
+* Properties:
+
+- Anything that can be done with Iteration, can be done with recursion and vice-versa.
+- Recursion can sometimes give the most simple solution. 
+- Base case is the condition which stops recursion. 
+- Iteration has infinite loop & Recursion has stack overflow. 
+
+
+
+<==========================================  Pointers  ================================================>
+
+# Pointers: A variable that stores the memory address of another variable. 
+
+* Syntax: 
+- int age = 28; int *ptr = &age; int _age = *ptr;
+- Here, * = value at address operator;
+- Here, & = address of operator;
+
+* Declaring Pointers: 
+- int *ptr;
+- char *ptr;
+- float *ptr;
+
+* Format Specifier: 
+- printf("%p", &age);
+- Here, %p is called pointer address;
+- %p prints hexadecimal numbers;
+- %u prints unsigned int;
+
+# Pointer to Pointer: A variable that stores the memory address of another pointer.
+
+* Syntax: int **pptr; char ** pptr; float **pptr;
+
+# Pointers in Function call:
+
+- Call by value : we pass value of variable as argument; [square(int n)]
+- Call by Reference : We pass address of variable as argument; [square(int *n)] used when we need to return multiple values from a function as a pointer. 

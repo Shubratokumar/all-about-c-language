@@ -276,10 +276,24 @@ Variables is the name of a memory location which stores some data.
 - Call by Reference : We pass address of variable as argument; [square(int *n)] used when we need to return multiple values from a function as a pointer. 
 
 
+<==========================================   Arrays   ================================================>
+
+# Arrays: Collection of similar data types stored at contigious memory locations. 
+
+* Syntax: int marks[5]; here in between [size of the array] that is how many items we wants to store.
+- In C Array are 0 based index e.g. count starts with 0 or first item of an array count as 0 then 1 and so on. 
+
+* Input & Output: 
+- scanf("%d", &marks[0]); here, & is the address of the value; // input
+- printf("%d", marks[0]); // output
 
 
 
-Last duration: 06 hrs 14 min 
-Date: 04 Jun 25
+
+
+
+
+Last duration: 06 hrs 18 min 
+Date: 05 Jun 25
 
 */
