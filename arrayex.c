@@ -8,9 +8,11 @@ int main(void){
     scanf("%f", &price[1]);
     printf("Enter third price: ");
     scanf("%f", &price[2]);
+    printf("First price with gst: %.2f \n", price[0]+(price[0]*0.18));
+    printf("Second price with gst: %.2f \n", price[1]+(price[1]*0.18));
+    printf("Third price with gst: %.2f \n", price[2]+(price[2]*0.18));
     float sum = price[0] + price[1] + price[2];
-    float gst = sum * 0.18;
-    float final = sum + gst;
-    printf("Final cost with gst = %.2f Without gst = %.2f", final, sum);
+    float final = sum + sum * 0.18;
+    printf("Final total cost with gst = %.2f \nWithout gst = %.2f", final, sum);
     return 0;
 }

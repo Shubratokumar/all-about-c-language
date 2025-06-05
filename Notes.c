@@ -287,7 +287,15 @@ Variables is the name of a memory location which stores some data.
 - scanf("%d", &marks[0]); here, & is the address of the value; // input
 - printf("%d", marks[0]); // output
 
+# Initialization of Array
 
+- int marks[] = {43, 44, 45};// here, we don't need to write the size of the array. This is optional.
+- int marks[3] = {45, 45, 45};// declare with size.
+
+# Pointer Arithmetic: Pointer can be incremented & decremented. 
+- int age = 28;
+- int *ptr = &age;
+- ptr++ or ptr--;
 
 
 
