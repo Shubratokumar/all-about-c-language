@@ -273,13 +273,13 @@ Variables is the name of a memory location which stores some data.
 # Pointers in Function call:
 
 - Call by value : we pass value of variable as argument; [square(int n)]
-- Call by Reference : We pass address of variable as argument; [square(int *n)]
+- Call by Reference : We pass address of variable as argument; [square(int *n)] used when we need to return multiple values from a function as a pointer. 
 
 
 
 
 
-Last duration: 05 hrs 40 min 
+Last duration: 06 hrs 14 min 
 Date: 04 Jun 25
 
 */
