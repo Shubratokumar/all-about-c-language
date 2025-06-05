@@ -301,7 +301,7 @@ Variables is the name of a memory location which stores some data.
 
 
 
-Last duration: 06 hrs 18 min 
+Last duration: 06 hrs 38 min 
 Date: 05 Jun 25
 
 */
