@@ -300,6 +300,7 @@ Variables is the name of a memory location which stores some data.
 * we can also compare 2 pointers as well. 
 * Array is a Pointer. 
 - int *ptr = &arr[0] or int *ptr = arr;
+* Traverse an Array: we can travel through the array. 
 
 
 
