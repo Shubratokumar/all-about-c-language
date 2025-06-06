@@ -1,22 +1,25 @@
 #include <stdio.h>
+// arrays as function argument
+void printNum(int *arr, int n);
 int main(void){
-    // traverse an array or travel through an array
-    int data[5];
-    //input
-    int *ptr = &data[0];
-    for (int i = 0; i < 5; i++)
-    {
-        printf("%d Index: ", i);
-        scanf("%d", &data[i]);
-    }
-    //output
-    for (int i = 0; i < 5; i++)
-    {
-        printf("%d Index = %d \n", i, data[i]);
-    }
-    
-    
+    int arr[] = { 1, 2, 3, 4, 6, 7, 9};
+    printNum(arr, 6);// first argument is the array; second argument is the size of the array
 
+    // traverse an array or travel through an array
+    // int data[5];
+    // //input
+    // int *ptr = &data[0];
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("%d Index: ", i);
+    //     scanf("%d", &data[i]);
+    // }
+    // //output
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("%d Index = %d \n", i, data[i]);
+    // }  
+    
     // write a program to enter price of 3 items & print their final cost with tax.
     // float price[3];
     // printf("Enter first price: ");
@@ -32,4 +35,11 @@ int main(void){
     // float final = sum + sum * 0.18;
     // printf("Final total cost with gst = %.2f \nWithout gst = %.2f", final, sum);
     return 0;
+}
+void printNum(int *arr, int n){
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d \t", arr[i]);
+    }
+        
 }
