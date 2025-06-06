@@ -1,24 +1,35 @@
 #include <stdio.h>
 
 int main(void){
+    // pointer subtract and comparision
+    int age = 34;
+    int _age = 24;
+    int __age = 43;
+    int *ptr = &age;
+    int *_ptr = &_age;
+    printf("%u, %u \ndifference = %u\n", ptr, _ptr, ptr-_ptr);
+    _ptr=&age;
+    printf("comparision = %u \n", ptr == _ptr);
+
+
     // pointer example
-    int x;
-    int *ptr;
-    ptr = &x; // store address
-    *ptr = 0; // assign value
-    printf("x = %d \n", x);
-    printf("*ptr = %u \n", *ptr);
-    printf("pointer address of x = %u \n", &x);
-    printf("pointer address of ptr = %u \n", ptr);
-    printf("pointer address of &ptr = %u \n", &ptr);
+    //int x;
+    //int *ptr;
+    //ptr = &x; // store address
+    //*ptr = 0; // assign value
+    // printf("x = %d \n", x);
+    // printf("*ptr = %u \n", *ptr);
+    // printf("pointer address of x = %u \n", &x);
+    // printf("pointer address of ptr = %u \n", ptr);
+    // printf("pointer address of &ptr = %u \n", &ptr);
     
-    *ptr += 5;
-    printf("x = %d \n", x);
-    printf("*ptr = %u \n", *ptr);
+    // *ptr += 5;
+    // printf("x = %d \n", x);
+    // printf("*ptr = %u \n", *ptr);
     
-    (*ptr)++;
-    printf("x = %d \n", x);
-    printf("*ptr = %u \n", *ptr);
+    // (*ptr)++;// increment
+    // printf("x = %d \n", x);
+    // printf("*ptr = %u \n", *ptr);
 
 
     // sum of given number with loop

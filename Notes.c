@@ -296,12 +296,27 @@ Variables is the name of a memory location which stores some data.
 - int age = 28;
 - int *ptr = &age;
 - ptr++ or ptr--;
+* we can also subtract one pointer from another. 
+* we can also compare 2 pointers as well. 
+
+# Array is a Pointer. 
+- int *ptr = &arr[0] or int *ptr = arr;
+* Traverse an Array: we can travel through the array. 
+
+# Arrays as function argument
+// function declaration
+void printNum(int arr[], int n); or
+void printNum(int *arr, int n); // as pointer
+// function call
+printNum(arr, n);
 
 
 
 
 
-Last duration: 06 hrs 38 min 
-Date: 05 Jun 25
+
+
+Last duration: 06 hrs 52 min 
+Date: 06 Jun 25
 
 */
