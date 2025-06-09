@@ -310,7 +310,7 @@ void printNum(int *arr, int n); // as pointer
 // function call
 printNum(arr, n);
 
-
+# Multidimensional Array: 
 
 
 
@@ -318,5 +318,4 @@ printNum(arr, n);
 
 Last duration: 06 hrs 52 min 
 Date: 06 Jun 25
-
 */
