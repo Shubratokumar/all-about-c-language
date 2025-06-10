@@ -1,1 +1,2 @@
 Writing to a file using 'fopen' example.
+Reading a file using 'fscanf' example.
