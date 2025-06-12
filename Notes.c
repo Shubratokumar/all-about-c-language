@@ -312,10 +312,15 @@ printNum(arr, n);
 
 # Multidimensional Array: 
 
+2D Arrays
+- int arr[][] = {{1,2},{3,4}}; // Declare
+- arr[0][0] = 1 or arr[0][1] = 2 or arr[1][0] = 3 or arr[1][1] = 4 // Access 
+
+
 
 
 
 
 Last duration: 06 hrs 52 min 
-Date: 06 Jun 25
+Date: 12 Jun 25
 */
