@@ -1,10 +1,14 @@
 #include <stdio.h>
 // arrays as function argument
 void printNum(int *arr, int n);
+// write a function to count the number of odd numbers in an array.
+int countOdd(int *arr, int n);
 int main(void){
-    int arr[] = { 1, 2, 3, 4, 6, 7, 9};
-    printNum(arr, 6);// first argument is the array; second argument is the size of the array
-
+    int arr[] = {1, 2, 3, 4, 6, 7, 9};
+    // printf("%d \n",*(arr+2));
+    // printf("%d \n",*(arr+9));
+    //printNum(arr, 6);// first argument is the array; second argument is the size of the array
+    // printf("Total Odd num : %d", countOdd(arr, 7));
     // traverse an array or travel through an array
     // int data[5];
     // //input
@@ -40,6 +44,17 @@ void printNum(int *arr, int n){
     for (int i = 0; i < n; i++)
     {
         printf("%d \t", arr[i]);
+    }        
+}
+
+int countOdd(int *arr, int n){
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] % 2 != 0) // odd num check
+        {
+            count++;
+        }        
     }
-        
+    return count;    
 }
