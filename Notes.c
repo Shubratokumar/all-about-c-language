@@ -321,6 +321,6 @@ printNum(arr, n);
 
 
 
-Last duration: 06 hrs 52 min 
+Last duration: 07 hrs 11 min 
 Date: 12 Jun 25
 */
