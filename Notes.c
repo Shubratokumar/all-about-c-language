@@ -194,6 +194,13 @@ Variables is the name of a memory location which stores some data.
 
 # Functions: block of code that performs particular task
 
+* Syntax: 
+  return_type function_name(parameter list)
+  {
+      Body of the function
+      ...
+  }
+
 * Functions always return a single result.
 * Take argument --> Do work --> Return result
 - It can be used multiple times;
@@ -321,6 +328,6 @@ printNum(arr, n);
 
 
 
-Last duration: 07 hrs 11 min 
+Last duration: 07 hrs 22 min 
 Date: 12 Jun 25
 */
