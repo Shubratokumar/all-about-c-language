@@ -323,9 +323,17 @@ printNum(arr, n);
 - int arr[][] = {{1,2},{3,4}}; // Declare
 - arr[0][0] = 1 or arr[0][1] = 2 or arr[1][0] = 3 or arr[1][1] = 4 // Access 
 
+<==========================================   strings  ================================================>
 
+* A character array terminated by a '\0' (null character)
+- null character('\0') denotes string termination;
 
+* Examples: 
+- char name[] = {'s', 'y', 'j', 'g','\0'};
 
+* Initializing String:
+- char name[] = {'S','H','U','B','R','A','T','O','\0'};
+- char name[] = "SHUBRATO";
 
 
 Last duration: 07 hrs 22 min 
