@@ -335,6 +335,11 @@ printNum(arr, n);
 - char name[] = {'S','H','U','B','R','A','T','O','\0'};
 - char name[] = "SHUBRATO";
 
+* String Format Specifier: 
+- "%s" 
+- char name[] = "Shubrato";
+- print("%s", name);
+
 
 Last duration: 07 hrs 22 min 
 Date: 12 Jun 25
