@@ -325,7 +325,7 @@ printNum(arr, n);
 
 <==========================================   strings  ================================================>
 
-* A character array terminated by a '\0' (null character)
+* A character array terminated by a '\0' (null character) [can be used as pointer]
 - null character('\0') denotes string termination;
 
 * Examples: 
@@ -335,7 +335,35 @@ printNum(arr, n);
 - char name[] = {'S','H','U','B','R','A','T','O','\0'};
 - char name[] = "SHUBRATO";
 
+* String Format Specifier: 
+- "%s" 
+- char name[] = "Shubrato";
+- print("%s", name);
 
-Last duration: 07 hrs 22 min 
-Date: 12 Jun 25
+* scanf() cannot input multi-word strings with spaces. Here, gets() & puts() come into picture. 
+
+* String Functions: 
+- gets(str): input a string(even multiword) // Dangerous & Outdated 
+- puts(str): output a string
+- fgets(str, n, file): stops when n-1 chars input or new line is entered. Use stdin(standard input) in files. 
+  like, fgets(name, 100, stdin);
+
+* String using Pointers:
+- char *str = "Hello World !"; // can be reinitialized
+- Store string in memory & the assigned address is stored in the char pointer 'str'
+- char str[] = "Hello World !"; // cannot be reinitialized
+
+* Standard Library Functions: <string.h> 
+- strlen(str): count number of characters excluding null character e.g. '\0';
+- strcpy(newStr, oldStr): copies value of old string to new string. 
+- strcat(firstStr, secStr): concatenates first string with second string. 
+- strcmp(firstStr, secStr): Compares 2 strings & returns a value. If returns: 0 = string equal; positive = first > second(ASCII); negative = first < second(ASCII);
+
+
+
+
+
+
+Last duration: 07 hrs 51 min 
+Date: 19 Jun 25
 */
