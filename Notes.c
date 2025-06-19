@@ -353,12 +353,15 @@ printNum(arr, n);
 - Store string in memory & the assigned address is stored in the char pointer 'str'
 - char str[] = "Hello World !"; // cannot be reinitialized
 
+* Standard Library Functions: <string.h> 
+- strlen(str): count number of characters excluding null character e.g. '\0';
+- strcpy(newStr, oldStr): copies value of old string to new string. 
 
 
 
 
 
 
-Last duration: 07 hrs 35 min 
-Date: 18 Jun 25
+Last duration: 07 hrs 51 min 
+Date: 19 Jun 25
 */
