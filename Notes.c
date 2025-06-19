@@ -340,6 +340,20 @@ printNum(arr, n);
 - char name[] = "Shubrato";
 - print("%s", name);
 
+* scanf() cannot input multi-word strings with spaces. Here, gets() & puts() come into picture. 
+
+* String Functions: 
+- gets(str): input a string(even multiword) // Dangerous & Outdated 
+- puts(str): output a string
+- fgets(str, n, file): stops when n-1 chars input or new line is entered. Use stdin(standard input) in files. 
+  like, fgets(name, 100, stdin);
+
+
+
+
+
+
+
 
 Last duration: 07 hrs 35 min 
 Date: 18 Jun 25

@@ -1,11 +1,18 @@
 #include <stdio.h>
 void printString(char arr[]);
 int main(){
+     // using gets() & puts()
+     char str[100];
+     printf("Enter your name: ");
+     fgets(str, 100, stdin);
+     // gets(str);
+     puts(str);
+
      // print string using string specifier
      char name[40];
-     printf("Enter your name: ");
-     scanf("%s", name);
-     printf("Name is : %s", name);
+     // printf("Enter your name: ");
+     // scanf("%s", name);
+     // printf("Name is : %s", name);
 
      // string definition
      char firstName[] = "SHUBRATO KUMAR";
