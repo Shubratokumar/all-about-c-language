@@ -357,7 +357,7 @@ printNum(arr, n);
 - strlen(str): count number of characters excluding null character e.g. '\0';
 - strcpy(newStr, oldStr): copies value of old string to new string. 
 - strcat(firstStr, secStr): concatenates first string with second string. 
-
+- strcmp(firstStr, secStr): Compares 2 strings & returns a value. If returns: 0 = string equal; positive = first > second(ASCII); negative = first < second(ASCII);
 
 
 

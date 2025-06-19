@@ -2,11 +2,17 @@
 #include <string.h>
 
 int main(){
+    // strcmp: string comparision
+    char first[]= "Chocolate";
+    // char first[]= "Banana";// will return 0;
+    char second[]= "Banana";
+    printf("%d", strcmp(first, second));
+
     // strcat: string concatenation
-    char first[]= "Shubrato ";
-    char second[]= "Kumar";
-    strcat(first, second);
-    puts(first);
+    // char first[]= "Shubrato ";
+    // char second[]= "Kumar";
+    // strcat(first, second);
+    // puts(first);
 
     // strcpy: copying string
     // char oldStr[] = "Old String";
