@@ -325,7 +325,7 @@ printNum(arr, n);
 
 <==========================================   strings  ================================================>
 
-* A character array terminated by a '\0' (null character)
+* A character array terminated by a '\0' (null character) [can be used as pointer]
 - null character('\0') denotes string termination;
 
 * Examples: 
@@ -348,6 +348,10 @@ printNum(arr, n);
 - fgets(str, n, file): stops when n-1 chars input or new line is entered. Use stdin(standard input) in files. 
   like, fgets(name, 100, stdin);
 
+* String using Pointers:
+- char *str = "Hello World !"; // can be reinitialized
+- Store string in memory & the assigned address is stored in the char pointer 'str'
+- char str[] = "Hello World !"; // cannot be reinitialized
 
 
 

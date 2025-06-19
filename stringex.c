@@ -1,12 +1,18 @@
 #include <stdio.h>
 void printString(char arr[]);
 int main(){
+     // string as pointer
+     char *canChange = "Hello, Shubrato !";
+     puts(canChange);
+     canChange = "Hello, Shuvo !";
+     puts(canChange);
+
      // using gets() & puts()
      char str[100];
-     printf("Enter your name: ");
-     fgets(str, 100, stdin);
+     // printf("Enter your name: ");
+     // fgets(str, 100, stdin);
      // gets(str);
-     puts(str);
+     // puts(str);
 
      // print string using string specifier
      char name[40];
