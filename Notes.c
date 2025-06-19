@@ -356,6 +356,8 @@ printNum(arr, n);
 * Standard Library Functions: <string.h> 
 - strlen(str): count number of characters excluding null character e.g. '\0';
 - strcpy(newStr, oldStr): copies value of old string to new string. 
+- strcat(firstStr, secStr): concatenates first string with second string. 
+
 
 
 
