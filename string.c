@@ -1,22 +1,30 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int main()
+{
     // take a string input from the user using %c(while loop)
     char str[100];
     char ch;
-    int i = 0;
+    // int i = 0;
     printf("Enter String: ");
     // condition: until press enter
-    while (ch != '\n')
+    // for loop
+    for (int i = 0; ch != '\n'; i++)
     {
-
         scanf("%c", &ch);
         str[i] = ch;
-        i++;
     }
-    //puting null character
-    str[i]= '\0';
+    // while loop
+    // while (ch != '\n')
+    // {
+
+    //     scanf("%c", &ch);
+    //     str[i] = ch;
+    //     i++;
+    // }
+    // puting null character
+    // str[i]= '\0';
     puts(str);
 
     // strcmp: string comparision
