@@ -366,7 +366,17 @@ printNum(arr, n);
 // user defined or custom data types
 
 * Syntax: struct student {char name[100]; int roll; float cgpa;};
+* Structure in Memory: structures are stored in contiguous memory location. 
+* Array of Structure: 
+-> struct student EEE[100];
+-> struct student CS[150];
+-> struct student IT[95];
+=> Access: IT[10].roll= 2; CS[50].cgpa = 3.75;
 
+* Initializing Structures: // single line assign
+-> struct student s1 = { "Shubro", 3, 4.5};
+-> struct student s2 = { "Shuvo", 7, 3.5};
+-> struct student s3 = { 0}; // declaring null value
 
 
 
