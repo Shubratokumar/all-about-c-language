@@ -15,7 +15,9 @@ int main(void)
 
     // pointer to structure
     struct student *ptr = &s1;
-    printf("Name: %s", (*ptr).name);
+    printf("Name: %s\n", (*ptr).name);
+    // arrow operator
+    printf("CGPA: %.2f\n", ptr->cgpa);
 
     return 0;
 }
