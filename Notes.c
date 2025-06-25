@@ -360,10 +360,34 @@ printNum(arr, n);
 - strcmp(firstStr, secStr): Compares 2 strings & returns a value. If returns: 0 = string equal; positive = first > second(ASCII); negative = first < second(ASCII);
 
 
+<=========================================  Structures  ===============================================>
+
+# Structures: a collection of value of different data types.
+// user defined or custom data types
+
+* Syntax: struct student {char name[100]; int roll; float cgpa;};
+* Structure in Memory: structures are stored in contiguous memory location. 
+* Array of Structure: 
+-> struct student EEE[100];
+-> struct student CS[150];
+-> struct student IT[95];
+=> Access: IT[10].roll= 2; CS[50].cgpa = 3.75;
+
+* Initializing Structures: // single line assign
+-> struct student s1 = { "Shubro", 3, 4.5};
+-> struct student s2 = { "Shuvo", 7, 3.5};
+-> struct student s3 = { 0}; // declaring null value
+
+* Pointer to structures: 
+-> struct student s1;
+-> struct student *prt;
+-> ptr = &s1;
+
+* Arrow Operator: 
+=> (*ptr).code == ptr -> code
 
 
 
-
-Last duration: 07 hrs 51 min 
-Date: 19 Jun 25
+Last duration: 08 hrs 21 min 
+Date: 25 Jun 25
 */
