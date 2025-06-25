@@ -360,10 +360,17 @@ printNum(arr, n);
 - strcmp(firstStr, secStr): Compares 2 strings & returns a value. If returns: 0 = string equal; positive = first > second(ASCII); negative = first < second(ASCII);
 
 
+<=========================================  Structures  ===============================================>
+
+# Structures: a collection of value of different data types.
+// user defined or custom data types
+
+* Syntax: struct student {char name[100]; int roll; float cgpa;};
 
 
 
 
-Last duration: 07 hrs 51 min 
-Date: 19 Jun 25
+
+Last duration: 08 hrs 21 min 
+Date: 25 Jun 25
 */

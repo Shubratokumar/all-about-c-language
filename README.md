@@ -273,3 +273,83 @@ Variables is the name of a memory location which stores some data.
 
 - Call by value : we pass value of variable as argument; [square(int n)]
 - Call by Reference : We pass address of variable as argument; [square(int *n)] used when we need to return multiple values from a function as a pointer. 
+
+
+<==========================================   Arrays   ================================================>
+
+# Arrays: Collection of similar data types stored at contigious memory locations. 
+
+* Syntax: int marks[5]; here in between [size of the array] that is how many items we wants to store.
+- In C Array are 0 based index e.g. count starts with 0 or first item of an array count as 0 then 1 and so on. 
+
+* Input & Output: 
+- scanf("%d", &marks[0]); here, & is the address of the value; // input
+- printf("%d", marks[0]); // output
+
+# Initialization of Array
+
+- int marks[] = {43, 44, 45};// here, we don't need to write the size of the array. This is optional.
+- int marks[3] = {45, 45, 45};// declare with size.
+
+# Pointer Arithmetic: Pointer can be incremented & decremented. 
+- int age = 28;
+- int *ptr = &age;
+- ptr++ or ptr--;
+* we can also subtract one pointer from another. 
+* we can also compare 2 pointers as well. 
+
+# Array is a Pointer. 
+- int *ptr = &arr[0] or int *ptr = arr;
+* Traverse an Array: we can travel through the array. 
+
+# Arrays as function argument
+// function declaration
+void printNum(int arr[], int n); or
+void printNum(int *arr, int n); // as pointer
+// function call
+printNum(arr, n);
+
+# Multidimensional Array: 
+
+2D Arrays
+- int arr[][] = {{1,2},{3,4}}; // Declare
+- arr[0][0] = 1 or arr[0][1] = 2 or arr[1][0] = 3 or arr[1][1] = 4 // Access 
+
+<==========================================   strings  ================================================>
+
+* A character array terminated by a '\0' (null character) [can be used as pointer]
+- null character('\0') denotes string termination;
+
+* Examples: 
+- char name[] = {'s', 'y', 'j', 'g','\0'};
+
+* Initializing String:
+- char name[] = {'S','H','U','B','R','A','T','O','\0'};
+- char name[] = "SHUBRATO";
+
+* String Format Specifier: 
+- "%s" 
+- char name[] = "Shubrato";
+- print("%s", name);
+
+* scanf() cannot input multi-word strings with spaces. Here, gets() & puts() come into picture. 
+
+* String Functions: 
+- gets(str): input a string(even multiword) // Dangerous & Outdated 
+- puts(str): output a string
+- fgets(str, n, file): stops when n-1 chars input or new line is entered. Use stdin(standard input) in files. 
+  like, fgets(name, 100, stdin);
+
+* String using Pointers:
+- char *str = "Hello World !"; // can be reinitialized
+- Store string in memory & the assigned address is stored in the char pointer 'str'
+- char str[] = "Hello World !"; // cannot be reinitialized
+
+* Standard Library Functions: <string.h> 
+- strlen(str): count number of characters excluding null character e.g. '\0';
+- strcpy(newStr, oldStr): copies value of old string to new string. 
+- strcat(firstStr, secStr): concatenates first string with second string. 
+- strcmp(firstStr, secStr): Compares 2 strings & returns a value. If returns: 0 = string equal; positive = first > second(ASCII); negative = first < second(ASCII);
+
+
+<=========================================  Structures  ===============================================>
