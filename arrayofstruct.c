@@ -15,8 +15,8 @@ int main(void)
     cs[18].roll = 3;
     strcpy(cs[50].name, "Shuvo");
     printf("Name: %s\n", cs[50].name);
-    printf("Name: %d\n", cs[18].roll);
-    printf("Name: %.2f", cs[10].cgpa);
+    printf("Roll: %d\n", cs[18].roll);
+    printf("CGPA: %.2f", cs[10].cgpa);
 
     return 0;
 }

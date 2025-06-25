@@ -378,6 +378,13 @@ printNum(arr, n);
 -> struct student s2 = { "Shuvo", 7, 3.5};
 -> struct student s3 = { 0}; // declaring null value
 
+* Pointer to structures: 
+-> struct student s1;
+-> struct student *prt;
+-> ptr = &s1;
+
+* Arrow Operator: 
+=> (*ptr).code == ptr -> code
 
 
 
