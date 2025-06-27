@@ -386,8 +386,12 @@ printNum(arr, n);
 * Arrow Operator: 
 => (*ptr).code == ptr -> code
 
+* Passing structure to function: 
+// function prototype
+void printInfo(struct student s1);
 
 
-Last duration: 08 hrs 21 min 
+
+Last duration: 08 hrs 53 min 
 Date: 25 Jun 25
 */
