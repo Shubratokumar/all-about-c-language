@@ -1,24 +1,18 @@
 #include <stdio.h>
-struct student
+// Enter address(house no, block, city, state) of 5 people
+typedef struct UserAddress
 {
-    int roll;
-    float cgp;
-    char name[150];
-};
-
-void printInfo(struct student s1);
+    int houseNo;
+    int block;
+    char city[150];
+    char state[150];
+} add; // alias
 
 int main(void){
-    struct student s1 = {123, 5.6, "Shuvo"};
-    s1.roll= 153; // change value
-    printInfo(s1);
+    add adds[5];
+    printf("Enter address for first person:\n");
+    scanf("%d %d %s %s", &adds[1].block, &adds[1].houseNo, adds[1].city, adds[1].state);
+    printf("2nd address: \nBlock: %d\nHouse No: %d\nCity: %s\nState: %s\n", adds[1].block, adds[1].houseNo, adds[1].city, adds[1].state);
+
     return 0;
-}
-// passing structure to function
-void printInfo(struct student s1){
-    printf("Student info: \n");
-    printf("Student name: %s\n", s1.name);
-    printf("Student roll: %d\n", s1.roll);
-    printf("Student cgpa: %.2f\n", s1.cgp);
-    s1.roll = 134; // will not effect the main value
 }
