@@ -1,8 +1,19 @@
 #include <stdio.h>
 // Create a structure to store complex numbers.(use arrow operator)
+//creating structure
+struct complex
+{
+    int real;
+    int imaginary;
+};
 
 int main(void){
-    
+    // assigning value in structure
+    struct complex num1 = { 4, 8};
+    // for use arrow operator we need to store structure in pointers
+    struct complex *ptr = &num1;
+    printf("Real part = %d\n", ptr->real); // arrow operator
+    printf("Imaginary part = %d\n", ptr->imaginary); // arrow operator    
     return 0;
 }
 

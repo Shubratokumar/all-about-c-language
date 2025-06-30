@@ -11,6 +11,7 @@ struct student {
 int main(void){
     struct student n1;
     n1.cgpa = 3.86;
+    // strcpy used as modifing values as well
     strcpy(n1.name, "Shubrato Kumar");
     n1.roll = 1;
     printf("Student name: %s\n", n1.name);
