@@ -1,29 +1,36 @@
 #include <stdio.h>
-// Create a structure to store vectors. Then make a function to return sum of 2 vectors.
-// Vectors: vectors are geometrical entities that have magnitude and direction.
-typedef struct Vector
-{
-    int x;
-    int y;
-} vec; // alias
-
-// calculate sum by using function
-void calSum(vec v1, vec v2, vec sum);
+// Create a structure to store complex numbers.(use arrow operator)
 
 int main(void){
-    vec v1 = { 5, 8};
-    vec v2 = {10, 16};
-    vec sum = {0};
-    // call function
-    calSum(v1, v2, sum);
+    
     return 0;
 }
-// calculate sum: pass by value
-void calSum(vec v1, vec v2, vec sum){
-    sum.x = v1.x + v2.x;
-    sum.y = v1.y + v2.y;
-    printf("Sum of x is : %d\nSum of y is : %d", sum.x, sum.y);
-}
+
+// // Create a structure to store vectors. Then make a function to return sum of 2 vectors.
+// // Vectors: vectors are geometrical entities that have magnitude and direction.
+// typedef struct Vector
+// {
+//     int x;
+//     int y;
+// } vec; // alias
+
+// // calculate sum by using function
+// void calSum(vec v1, vec v2, vec sum);
+
+// int main(void){
+//     vec v1 = { 5, 8};
+//     vec v2 = {10, 16};
+//     vec sum = {0};
+//     // call function
+//     calSum(v1, v2, sum);
+//     return 0;
+// }
+// // calculate sum: pass by value
+// void calSum(vec v1, vec v2, vec sum){
+//     sum.x = v1.x + v2.x;
+//     sum.y = v1.y + v2.y;
+//     printf("Sum of x is : %d\nSum of y is : %d", sum.x, sum.y);
+// }
 
 // typedef struct UserAddress
 // {
