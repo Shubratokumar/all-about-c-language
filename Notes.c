@@ -388,10 +388,21 @@ printNum(arr, n);
 
 * Passing structure to function: 
 // function prototype
-void printInfo(struct student s1);
+-> void printInfo(struct student s1);
+
+* typedef keyword: used to create alias(Nickname/surname/a false or assumed identity) for data types. 
+-> typedef struct ComputerEngineeringStudent{
+    int roll;
+    float cgpa;
+    char name[100];
+  } cs; //alias
+  cs student1; // using alias
 
 
 
-Last duration: 08 hrs 53 min 
-Date: 25 Jun 25
+
+
+
+Last duration: 09 hrs 15 min 
+Date: 28 Jun 25
 */

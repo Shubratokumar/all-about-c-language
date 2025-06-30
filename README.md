@@ -353,3 +353,38 @@ printNum(arr, n);
 
 
 <=========================================  Structures  ===============================================>
+# Structures: a collection of value of different data types.
+// user defined or custom data types
+
+* Syntax: struct student {char name[100]; int roll; float cgpa;};
+* Structure in Memory: structures are stored in contiguous memory location. 
+* Array of Structure: 
+-> struct student EEE[100];
+-> struct student CS[150];
+-> struct student IT[95];
+=> Access: IT[10].roll= 2; CS[50].cgpa = 3.75;
+
+* Initializing Structures: // single line assign
+-> struct student s1 = { "Shubro", 3, 4.5};
+-> struct student s2 = { "Shuvo", 7, 3.5};
+-> struct student s3 = { 0}; // declaring null value
+
+* Pointer to structures: 
+-> struct student s1;
+-> struct student *prt;
+-> ptr = &s1;
+
+* Arrow Operator: 
+=> (*ptr).code == ptr -> code
+
+* Passing structure to function: 
+// function prototype
+-> void printInfo(struct student s1);
+
+* typedef keyword: used to create alias(Nickname/surname/a false or assumed identity) for data types. 
+-> typedef struct ComputerEngineeringStudent{
+    int roll;
+    float cgpa;
+    char name[100];
+  } cs; //alias
+  cs student1; // using alias
