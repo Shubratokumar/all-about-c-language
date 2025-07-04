@@ -399,10 +399,52 @@ printNum(arr, n);
   cs student1; // using alias
 
 
+<==========================================  File I/O  ===============================================>
+# File IO(Input Output):
+* File: container in a storage device to store data
+- RAM is volatile
+- Contents are lost when program terminates
+- Files are used to persist the data
+
+-> RAM: Volatile memory
+-> Hard Disk: Non-volatile memory
+
+* Operation on Files:
+- Create, Open, Close, Read & Write file
+
+* Types of Files:
+-> Text Files: textual Data like: .txt,.c
+-> Binary Files: binary data like: .exe, .mp3, .jpg 
+
+* File Pointer:
+-> FILE is a (hidden) structure that needs to be created for opening a file.
+-> A FILE ptr(pointer) that points to this structure & is used to access the file.
+-> FILE *fptr // file pointer declare
+
+* Opening a File:
+->FILE *fptr // file pointer declare
+->fptr = fopen("filename", mode);
+
+* Closing a File:
+-> fclose(fptr);
+
+* File Opening Modes:
+-> "r": Open to read
+-> "rb": Open to read in binary
+-> "w": Open to write // overwrite
+-> "wb": Open to write in binary
+-> "a": Open to append // joint
+
+* Best Practice:
+-> Check if a file exists before reading from it. 
 
 
 
 
-Last duration: 09 hrs 15 min 
-Date: 28 Jun 25
+
+
+
+
+Last duration: 09 hrs 40 min 
+Date: 30 Jun 25
 */
