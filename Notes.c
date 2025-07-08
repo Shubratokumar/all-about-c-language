@@ -400,10 +400,11 @@ printNum(arr, n);
 
 
 <==========================================  File I/O  ===============================================>
+
 # File IO(Input Output):
 * File: container in a storage device to store data
 - RAM is volatile
-- Contents are lost when program terminates
+- RAM: Contents are lost when program terminates
 - Files are used to persist the data
 
 -> RAM: Volatile memory
@@ -436,7 +437,7 @@ printNum(arr, n);
 -> "a": Open to append // joint
 
 * Best Practice:
--> Check if a file exists before reading from it. 
+-> Check if a file exists before reading from it. (if(filename !=null));
 
 
 
