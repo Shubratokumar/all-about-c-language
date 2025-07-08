@@ -447,6 +447,12 @@ printNum(arr, n);
 - char ch = "S";
 - fprintf(fptr, "%c", ch);// for writing
 
+* Read & Write a char:
+- fgetc(fptr);// character
+- fputc('A',fptr);
+
+* EOF(End of File):
+- fgetc returns EOF to show that the file has ended.
 
 
 

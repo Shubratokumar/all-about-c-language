@@ -11,7 +11,7 @@ int main()
     fprintf(shuvo, "%c", 'h');
     fprintf(shuvo, "%c", 'u');
     fprintf(shuvo, "%c", 'v');
-    fprintf(shuvo, "%c", 'o');
+    fprintf(shuvo, "%c", 'o'); 
     fclose(shuvo);   
 
     // reading from a file
