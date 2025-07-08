@@ -439,6 +439,10 @@ printNum(arr, n);
 * Best Practice:
 -> Check if a file exists before reading from it. (if(filename !=null));
 
+* Reading from a file:
+- char ch; // where we want to store data from reading
+- fscanf(fptr, "%c", &ch);// for reading
+
 
 
 
