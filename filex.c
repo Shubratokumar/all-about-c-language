@@ -1,20 +1,22 @@
 #include <stdio.h>
 int main()
 {
-    // Make a program to read 5 integers from a file.
+    // Make a program to input student information from a user & enter it to a file.
     FILE *shuvo;
-    shuvo = fopen("text.txt", "r");
-    int num;
-    fscanf(shuvo, "%d", &num);
-    printf("First: %d\n", num);
-    fscanf(shuvo, "%d", &num);
-    printf("Second: %d\n", num);
-    fscanf(shuvo, "%d", &num);
-    printf("Third: %d\n", num);
-    fscanf(shuvo, "%d", &num);
-    printf("Fourth: %d\n", num);
-    fscanf(shuvo, "%d", &num);
-    printf("Fifth: %d\n", num);
+    shuvo = fopen("student.txt", "w");
+    char name[100];
+    int age;
+    float cgpa;
+    printf("Enter name: ");
+    scanf("%s", &name);
+    printf("Enter age: ");
+    scanf("%d", &age);
+    printf("Enter cg: ");
+    scanf("%f", &cgpa);
+
+    fprintf(shuvo, "%s\t", name);
+    fprintf(shuvo, "%d\t", age);
+    fprintf(shuvo, "%.2f\t", cgpa);
     fclose(shuvo);
     
     return 0;
