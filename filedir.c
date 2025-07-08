@@ -3,19 +3,27 @@ int main()
 {
     // file pointer declare
     FILE *shuvo;
-    // shuvo = fopen("text.txt", "w");// write(overwrite) and create mode
     // shuvo = fopen("text.txt", "a");// append(joint) mode
-    shuvo = fopen("text.txt", "r");// reading mode
+    // shuvo = fopen("text.txt", "r");// reading mode
+    shuvo = fopen("text.txt", "w");// write(overwrite) and create mode
+    // writing  to a file:
+    fprintf(shuvo, "%c", 'S');
+    fprintf(shuvo, "%c", 'h');
+    fprintf(shuvo, "%c", 'u');
+    fprintf(shuvo, "%c", 'v');
+    fprintf(shuvo, "%c", 'o');
+    fclose(shuvo);   
+
     // reading from a file
     // char ch[100];// character
     // fscanf(shuvo, "%s", &ch);
     // printf("character reading from file: %s", ch);
-    int num;// integer
-    fscanf(shuvo, "%d", &num);
-    printf("Integer reading from file: %d \n", num);
-    fscanf(shuvo, "%d", &num);
-    printf("Integer reading from file: %d", num);
-    fclose(shuvo);   
+    // int num;// integer
+    // fscanf(shuvo, "%d", &num);
+    // printf("Integer reading from file: %d \n", num);
+    // fscanf(shuvo, "%d", &num);
+    // printf("Integer reading from file: %d", num);
+    // fclose(shuvo);   
     
     // checking whether file exist or not
     // if (shuvo == NULL)

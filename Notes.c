@@ -443,6 +443,9 @@ printNum(arr, n);
 - char ch; // where we want to store data from reading
 - fscanf(fptr, "%c", &ch);// for reading
 
+* Writing to a file:
+- char ch = "S";
+- fprintf(fptr, "%c", ch);// for writing
 
 
 
