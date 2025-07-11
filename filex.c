@@ -1,20 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    // write a program to write all the odd numbers from 1 to n in a file.
+    // 2 numbers - a & b, are written in a file. Write a program to replace them with their sum.
     FILE *shuvo;
-    shuvo = fopen("odd.txt", "w");
-    int n;
-    printf("Enter n: ");
-    scanf("%d", &n);
-    for (int i = 0; i <= n; i++)
-    {
-        if (i % 2 != 0)
-        {
-            fprintf(shuvo,"%d\n", i);
-        }
-        
-    }   
+    shuvo = fopen("sum.txt", "r"); // read mode
+    int a;
+    fscanf(shuvo, "%d", &a);
+    int b;
+    fscanf(shuvo, "%d", &b);
+    fclose(shuvo);    
+    shuvo = fopen("sum.txt", "w"); // write mode
+    fprintf(shuvo, "%d", a + b);    
     
     fclose(shuvo);    
     return 0;
