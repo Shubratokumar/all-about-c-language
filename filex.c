@@ -1,23 +1,17 @@
 #include <stdio.h>
 int main()
 {
-    // Make a program to input student information from a user & enter it to a file.
+    // 2 numbers - a & b, are written in a file. Write a program to replace them with their sum.
     FILE *shuvo;
-    shuvo = fopen("student.txt", "w");
-    char name[100];
-    int age;
-    float cgpa;
-    printf("Enter name: ");
-    scanf("%s", &name);
-    printf("Enter age: ");
-    scanf("%d", &age);
-    printf("Enter cg: ");
-    scanf("%f", &cgpa);
-
-    fprintf(shuvo, "%s\t", name);
-    fprintf(shuvo, "%d\t", age);
-    fprintf(shuvo, "%.2f\t", cgpa);
-    fclose(shuvo);
+    shuvo = fopen("sum.txt", "r"); // read mode
+    int a;
+    fscanf(shuvo, "%d", &a);
+    int b;
+    fscanf(shuvo, "%d", &b);
+    fclose(shuvo);    
+    shuvo = fopen("sum.txt", "w"); // write mode
+    fprintf(shuvo, "%d", a + b);    
     
+    fclose(shuvo);    
     return 0;
 }

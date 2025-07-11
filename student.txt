@@ -1,1 +1,3 @@
-Shubrato	28	3.95	
+Name: 1021-thread-info
+Age: 3
+CGPA: 1022.00
