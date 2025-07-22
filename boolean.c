@@ -8,6 +8,11 @@ int main()
 
     // Return boolean values
     printf("%d\n", isProgrammingFun); // Returns 1 (true)
-    printf("%d", isFishTasty);      // Returns 0 (false)
+    printf("%d \n", isFishTasty);      // Returns 0 (false)
+
+    // comparing values and variables
+    printf("%d\n", 10 > 9); //Returns 1 (true) because 10 is greater than 9
+    printf("%d\n", 9 > 19); //Returns 0 (false) because 19 is greater than 9
+
     return 0;
 }
