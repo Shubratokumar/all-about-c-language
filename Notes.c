@@ -454,6 +454,10 @@ printNum(arr, n);
 * EOF(End of File):
 - fgetc returns EOF to show that the file has ended.
 
+<====================================  Dynamic Memory Allocation  =====================================>
+
+*
+
 
 
 
