@@ -456,7 +456,18 @@ printNum(arr, n);
 
 <====================================  Dynamic Memory Allocation  =====================================>
 
-*
+# DMA: It is a way to allocate memory to a data structure during the runtime.
+  We need some functions to allocate & free memory dynamically.
+
+* Functions for DMA:
+- malloc(): Memory Allocation
+- calloc(): Continuous Allocation
+- free():
+- realloc(): Re allocation
+
+* malloc(): Memory Allocation
+- takes number of bytes to be allocated & returns a pointer of type void.
+- ptr = (int*)malloc(5*sizeof(int));
 
 
 

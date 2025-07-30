@@ -388,3 +388,72 @@ printNum(arr, n);
     char name[100];
   } cs; //alias
   cs student1; // using alias
+
+<==========================================  File I/O  ===============================================>
+
+# File IO(Input Output):
+* File: container in a storage device to store data
+- RAM is volatile
+- RAM: Contents are lost when program terminates
+- Files are used to persist the data
+
+-> RAM: Volatile memory
+-> Hard Disk: Non-volatile memory
+
+* Operation on Files:
+- Create, Open, Close, Read & Write file
+
+* Types of Files:
+-> Text Files: textual Data like: .txt,.c
+-> Binary Files: binary data like: .exe, .mp3, .jpg 
+
+* File Pointer:
+-> FILE is a (hidden) structure that needs to be created for opening a file.
+-> A FILE ptr(pointer) that points to this structure & is used to access the file.
+-> FILE *fptr // file pointer declare
+
+* Opening a File:
+->FILE *fptr // file pointer declare
+->fptr = fopen("filename", mode);
+
+* Closing a File:
+-> fclose(fptr);
+
+* File Opening Modes:
+-> "r": Open to read
+-> "rb": Open to read in binary
+-> "w": Open to write // overwrite
+-> "wb": Open to write in binary
+-> "a": Open to append // joint
+
+* Best Practice:
+-> Check if a file exists before reading from it. (if(filename !=null));
+
+* Reading from a file:
+- char ch; // where we want to store data from reading
+- fscanf(fptr, "%c", &ch);// for reading
+
+* Writing to a file:
+- char ch = "S";
+- fprintf(fptr, "%c", ch);// for writing
+
+* Read & Write a char:
+- fgetc(fptr);// character
+- fputc('A',fptr);
+
+* EOF(End of File):
+- fgetc returns EOF to show that the file has ended.
+
+<====================================  Dynamic Memory Allocation  =====================================>
+
+# DMA: It is a way to allocate memory to a data structure during the runtime.
+  We need some functions to allocate & free memory dynamically.
+
+* Functions for DMA:
+- malloc(): Memory Allocation
+- calloc(): Continuous Allocation
+- free():
+- realloc(): Re allocation
+
+* malloc(): Memory Allocation
+- takes number of bytes to be allocated & 
