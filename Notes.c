@@ -469,11 +469,13 @@ printNum(arr, n);
 - takes number of bytes to be allocated & returns a pointer of type void.
 - ptr = (int*)malloc(5*sizeof(int));
 
+* calloc(): Continuous Allocation
+- initializes with 0 or null value
+- ptr = (*int)calloc(5, sizeof(int));
 
 
 
 
-
-Last duration: 10 hrs 00 min 
-Date: 07 Jul 25
+Last duration: 10 hrs 18 min 
+Date: 13 Aug 25
 */
