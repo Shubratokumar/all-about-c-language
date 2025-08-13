@@ -471,7 +471,7 @@ printNum(arr, n);
 
 * calloc(): Continuous Allocation
 - initializes with 0 or null value
-- ptr = (*int)calloc(5, sizeof(int));
+- ptr = (int*)calloc(5, sizeof(int));
 
 
 
