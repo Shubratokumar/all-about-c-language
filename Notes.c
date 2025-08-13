@@ -462,7 +462,7 @@ printNum(arr, n);
 * Functions for DMA:
 - malloc(): Memory Allocation
 - calloc(): Continuous Allocation
-- free():
+- free(): Free memory
 - realloc(): Re allocation
 
 * malloc(): Memory Allocation
@@ -473,10 +473,13 @@ printNum(arr, n);
 - initializes with 0 or null value
 - ptr = (int*)calloc(5, sizeof(int));
 
-* free():
+* free(): Free memory
 - we use it to free memory that is allocated using malloc & calloc.
 - free(ptr);
 
+* realloc():  Re allocation
+- reallocate (increase or decrease) memory using the same pointer & size.
+- ptr = realloc(ptr, newSize);
 
 
 
