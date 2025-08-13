@@ -457,3 +457,22 @@ printNum(arr, n);
 
 * malloc(): Memory Allocation
 - takes number of bytes to be allocated & 
+* malloc(): Memory Allocation
+- takes number of bytes to be allocated & returns a pointer of type void.
+- ptr = (int*)malloc(5*sizeof(int));
+
+* calloc(): Continuous Allocation
+- initializes with 0 or null value
+- ptr = (int*)calloc(5, sizeof(int));
+
+* free(): Free memory
+- we use it to free memory that is allocated using malloc & calloc.
+- free(ptr);
+
+* realloc():  Re allocation
+- reallocate (increase or decrease) memory using the same pointer & size.
+- ptr = realloc(ptr, newSize);
+
+
+Last duration: 10 hrs 30 min 
+Date: 13 Aug 25 [The End]

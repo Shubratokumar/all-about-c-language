@@ -482,17 +482,6 @@ printNum(arr, n);
 - ptr = realloc(ptr, newSize);
 
 
-
-
-
-
-
-
-
-
-
-
-
-Last duration: 10 hrs 18 min 
-Date: 13 Aug 25
+Last duration: 10 hrs 30 min 
+Date: 13 Aug 25 [The End]
 */

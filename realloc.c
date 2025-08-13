@@ -1,24 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(void){
-    // realloc in the memory with calloc
+    // Allocate memory to store first 5 odd numbers, then reallocate it to store first 6 even numbers.
     int *ptr;
-    ptr = (int*) calloc(5,sizeof(int));
-    printf("Enter nums[5]\n");
+    ptr = (int*) calloc(5, sizeof(int));
+    ptr[0] = 1;
+    ptr[1] = 3;
+    ptr[2] = 5;
+    ptr[3] = 7;
+    ptr[4] = 9;
     for (int i = 0; i < 5; i++)
     {
-        scanf("%d", &ptr[i]);
+       printf("Odd numbs: %d \n", ptr[i]);
     }
-    ptr = realloc(ptr, 7);
-    printf("Enter nums[7]\n");
-    for (int i = 0; i <7; i++)
+    ptr = realloc(ptr, 6);
+    ptr[0] = 2;
+    ptr[1] = 4;
+    ptr[2] = 6;
+    ptr[3] = 8;
+    ptr[4] = 10;
+    ptr[5] = 12;
+    for (int i = 0; i < 6; i++)
     {
-        scanf("%d", &ptr[i]);
-    }  
-    // print realloc
-    for (int i = 0; i < 7; i++)
-    {
-        printf("num %d is :%d \n", i, ptr[i]);
-    }    
+       printf("Even numbs: %d \n", ptr[i]);
+    }
     return 0;
 }
