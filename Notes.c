@@ -473,6 +473,20 @@ printNum(arr, n);
 - initializes with 0 or null value
 - ptr = (int*)calloc(5, sizeof(int));
 
+* free():
+- we use it to free memory that is allocated using malloc & calloc.
+- free(ptr);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
